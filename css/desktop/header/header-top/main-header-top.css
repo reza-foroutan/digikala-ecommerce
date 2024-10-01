@@ -1,0 +1,26 @@
+div.header__top {
+  width: 100%;
+  height: 60px;
+  background-color: var(--color-neutral-000);
+}
+div.header__top > a {
+  width: 100%;
+  height: 60px;
+  display: block;
+}
+div.header__top > a > div {
+  width: 100%;
+  height: 60px;
+  line-height: 0;
+  position: relative;
+}
+div.header__top > a > div > picture {
+  width: 100%;
+  height: 60px;
+}
+div.header__top > a > div > picture > img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+  display: inline-block;
+}
