@@ -9,7 +9,6 @@
 html {
   scroll-behavior: smooth;
   scroll-behavior: smooth;
-  font-size: clamp(0.7rem, 2vw, 1.3rem);
 }
 body,
 html {
@@ -33,12 +32,18 @@ html {
   --color-icon-low-emphasis: #a1a3a8;
   --color-neutral-800: #23254e;
   --color-neutral-400: #a1a3a8;
+  --large-radius: 16px;
+  --color-white: #fff;
+  --small-radius: 4px;
+  --color-icon-white: #fff;
+  --color-hint-object-error: #d32f2f;
+  --color-icon-high-emphasis: #424750;
+  --color-neutral-300: #c0c2c5;
 }
 body {
   font-family: var(--font-family);
   overflow: auto;
   min-height: var(--window-inner-height);
-  font-size: clamp(0.7rem, 2vw, 1.3rem);
   position: relative;
 }
 img[alt]:after {
