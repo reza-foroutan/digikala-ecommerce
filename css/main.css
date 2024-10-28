@@ -1,1 +1,3 @@
-@import url("./desktop/main-desktop.css");
+@import url("./settings/fontiran.css");
+@import url("./settings/settings.css");
+@import url("./media-query/main-media-query.css");

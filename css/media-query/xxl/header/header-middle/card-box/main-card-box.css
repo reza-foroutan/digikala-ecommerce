@@ -1,0 +1,85 @@
+.header__middle__login__card__box {
+    width: 20%;
+    height: 44px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: row wrap;
+    .header__middle__login__card__box__wrapper {
+      height: 44px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: row wrap;
+      .header__middle__login__box {
+        width: 135px;
+        height: 44px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-flow: row wrap;
+        margin-right: 14px;
+        .header__middle__login__box__link {
+          border: 1px solid var(--color-neutral-200);
+          background-color: transparent;
+          color: var(--color-button-black);
+          padding: calc(2 * var(--spacing-base)) calc(4 * var(--spacing-base));
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 2.17;
+          border-radius: var(--global-radius);
+          white-space: nowrap;
+          align-items: center;
+          flex-shrink: 0;
+          display: flex;
+          position: relative;
+          cursor: pointer;
+          margin: 0 -60px;
+          .header__middle__login__box__link__box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+            column-gap: 8px;
+            & svg {
+              width: 24px;
+              height: 24px;
+              fill: var(--color-icon-high-emphasis);
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+  }
+  .header__middle__card__box {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: flex-end;
+    margin-right: -72px;
+    .card__link {
+      display: block !important;
+      padding: 8px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background-color: var(--color-neutral-000);
+      border-radius: var(--global-radius);
+      display: inline-flex;
+      position: relative;
+      & div {
+        display: flex;
+        & svg {
+          width: 24px;
+          height: 24px;
+          fill: var(--color-icon-high-emphasis);
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  

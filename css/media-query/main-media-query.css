@@ -1,0 +1,6 @@
+@import url("./xs/main-xs.css") screen and (min-width: 324px);
+@import url("./sm/main-sm.css") screen and (min-width: 576px);
+@import url("./md/main-md.css") screen and (min-width: 768px);
+@import url("./lg/main-lg.css") screen and (min-width: 992px);
+@import url("./xl/main-xl.css") screen and (min-width: 1200px);
+@import url("./xxl/main-xxl.css") screen and (min-width: 1400px);

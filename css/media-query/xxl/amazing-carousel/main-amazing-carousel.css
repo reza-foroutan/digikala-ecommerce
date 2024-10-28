@@ -1,0 +1,242 @@
+.amazing__carousel {
+  width: 100%;
+  height: 300px;
+  .amazing__carousel__wrapper {
+    width: 85%;
+    height: 300px;
+    background: linear-gradient(225deg, #d22c4e, #ee384e 41.68%, #ef5662);
+    margin: 0 auto;
+    border-radius: var(--large-radius);
+    display: block;
+    overflow: hidden;
+    padding: 20px 35px 45px 0px;
+    box-sizing: border-box;
+    .amazing__carousel__wow {
+      .amazing__swiper__first__slider {
+        width: 162px !important;
+        height: 255px !important;
+
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: transparent;
+        flex-flow: column wrap;
+        .amazing__first__link {
+          align-items: center;
+          flex-direction: column;
+          width: 162px !important;
+          height: 255px !important;
+          row-gap: 2px !important;
+          justify-content: space-between;
+          display: flex;
+          .amazing__first__wrapper {
+            width: 88px;
+            height: 88px;
+            line-height: 0;
+            .amazing__first__image__first__image {
+              width: 100%;
+              height: 100%;
+              .img {
+                width: 88px;
+                height: 88px;
+                line-height: 0;
+                object-fit: cover;
+                display: inline-block;
+              }
+            }
+            .amazing__first__timer {
+              display: flex;
+              justify-content: center;
+              flex-direction: row-reverse;
+              align-items: center;
+              gap: 4px;
+              margin: 15px;
+              margin: 15px;
+              .time {
+                background-color: var(--color-white);
+                border-radius: var(--small-radius);
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                width: 26px;
+                height: 26px;
+                display: flex;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 2.15;
+                color: var(--color-neutral-800);
+                padding: 10px;
+              }
+              .dot {
+                all: unset;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 2.15;
+                color: var(--color-white);
+                width: 4px;
+              }
+            }
+            .amazing__first__image__second__image {
+              width: 80px;
+              height: 80px;
+              line-height: 0;
+              margin-top: -7px;
+            }
+            .amazing-see-all {
+              font-size: 12px;
+              font-weight: 700;
+              line-height: 2.17;
+              display: flex;
+              color: var(--color-white);
+              justify-content: center;
+              align-items: center;
+              & div {
+                display: flex;
+                & svg {
+                  width: 18px;
+                  height: 18px;
+                  fill: var(--color-icon-white);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.amazing {
+  width: 162px !important;
+  height: 255px !important;
+  .amazing__link {
+    width: 160px;
+    min-width: 160px;
+    max-width: 160px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 100% !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: var(--color-neutral-000);
+    cursor: pointer;
+    .product__card {
+      width: 100%;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      row-gap: 25px;
+      & article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        row-gap: 14px;
+        .product__card__image {
+          width: 132px;
+          height: 132px;
+          line-height: 0;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          & picture {
+            display: block;
+            width: 132px;
+            height: 132px;
+            & img {
+              width: 132px;
+              height: 132px;
+              display: inline-block;
+              object-fit: cover;
+              border-radius: var(--global-radius);
+            }
+          }
+        }
+        .product__card__price__name {
+          & h3 {
+            font-size: 12px;
+            font-weight: 400;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            color: var(--color-neutral-600);
+            line-height: 20px !important;
+            height: 40px;
+          }
+        }
+        .product__card__price__off {
+          width: 100%;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          .price__price__prdouct {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .price__discount__percent {
+              font-size: 12px;
+              font-weight: 700;
+              line-height: 2.17;
+              color: var(--color-white);
+              padding-left: 4px;
+              padding-right: 4px;
+              box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              background-color: var(--color-hint-object-error);
+              border-radius: var(--large-radius);
+              justify-content: center;
+              align-items: center;
+              display: flex;
+              height: 20px;
+              width: 34px;
+              margin-left: 30px;
+            }
+            & div:nth-of-type(2) {
+              width: 100%;
+              display: flex;
+              column-gap: 4px;
+              justify-content: center;
+              align-items: center;
+              font-size: 14px;
+              font-weight: 700;
+              color: var(--color-neutral-700);
+            }
+          }
+          .price__discount__percent {
+            padding-left: 20px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+
+            .price__no__discount {
+              line-height: 21px !important;
+              font-size: 12px;
+              font-weight: 400;
+              text-decoration-line: line-through;
+              color: var(--color-neutral-300);
+              align-self: flex-end;
+              margin-right: 67px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.amazing__border {
+  border-top-right-radius: var(--global-radius) !important;
+  border-bottom-right-radius: var(--global-radius) !important;
+}

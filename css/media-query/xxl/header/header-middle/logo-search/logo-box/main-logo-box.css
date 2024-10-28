@@ -1,0 +1,40 @@
+.header__middle__logo__box {
+  width: 20%;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  .header__middle__logo {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    position: relative;
+    .header__middle__logo__link {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      .header__middle__logo__link__box {
+        width: 195px;
+        height: 30px;
+        line-height: 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        .header__middle__logo__link__image {
+          width: 195px;
+          height: 30px;
+          object-fit: cover;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

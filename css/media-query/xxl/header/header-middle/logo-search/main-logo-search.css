@@ -1,0 +1,10 @@
+@import url("./logo-box/main-logo-box.css");
+
+.header__middle__logo__search__box {
+  width: 80%;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
