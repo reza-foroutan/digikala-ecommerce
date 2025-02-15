@@ -1,0 +1,28 @@
+.header-middle-cart-box {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  .header-middle-cart-box-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    div {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      line-height: 40px;
+      svg {
+        width: 24px;
+        height: 24px;
+        fill: var(--color-icon-high-emphasis);
+      }
+    }
+  }
+}

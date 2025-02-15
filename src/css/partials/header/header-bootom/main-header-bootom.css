@@ -1,0 +1,34 @@
+@import "./header-bottom-navigation/main-header-bottom-navigation.css";
+@import "./header-bottom-location/main-header-bottom-location.css";
+.main-header-bootom {
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-neutral-000);
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  min-height: 36px;
+  .header-bootom {
+    width: 100%;
+    height: 40px;
+    background-color: var(--color-neutral-000);
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    min-height: 36px;
+    .header-bootom-wrapper {
+      width: 100%;
+      height: 40px;
+      padding-left: 16px;
+      padding-right: 16px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      flex-flow: row wrap;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.main-header-top {
+  width: 100%;
+  height: 60px;
+  background-color: var(--color-neutral-000);
+  position: relative;
+  .header-top {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    .header-top-link {
+      width: 100%;
+      height: 60px;
+      display: block;
+      position: relative;
+      .header-top-link-box {
+        width: 100%;
+        height: 60px;
+        line-height: 0;
+        position: relative;
+        picture {
+          width: 100%;
+          height: 60px;
+          display: block;
+          position: relative;
+         img {
+            width: 100%;
+            height: 60px;
+            object-fit: cover;
+            object-position: center center;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
