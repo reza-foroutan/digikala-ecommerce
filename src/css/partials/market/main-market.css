@@ -1,0 +1,97 @@
+.main-market {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  .main-market-wrapper {
+    width: 95%;
+    height: inherit;
+    .market-wrapper {
+      width: 100%;
+      height: 100%;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
+      background-color: var(--color-neutral-000);
+      overflow: hidden;
+      .market-item {
+        width: 85px;
+        height: 105px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        .market-item-link {
+          width: inherit;
+          height: inherit;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: space-evenly;
+          align-items: center;
+          .market-item-image {
+            width: 52px;
+            height: 52px;
+            line-height: 0;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 52px;
+              height: 52px;
+              object-fit: cover;
+            }
+          }
+          .market-item-heading {
+            width: 82px;
+            height: 47px;
+            line-height: 0;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            padding-left: 16px;
+            padding-right: 16px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 2.17;
+            color: var(--color-neutral-700);
+            text-align: center;
+            margin-top: 4px;
+            font-family: var(--font-family);
+          }
+        }
+      }
+    }
+  }
+}
+
+.more-market-item {
+  width: 52px;
+  height: 52px;
+  background-color: lightgrey;
+  border-radius: 50px;
+  background-color: var(--color-neutral-100);
+  color: var(--color-neutral-400);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  svg {
+    width: 32px;
+    height: 32px;
+    fill: var(--color-icon-low-emphasis);
+  }
+}

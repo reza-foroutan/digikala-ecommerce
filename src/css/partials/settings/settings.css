@@ -26,6 +26,12 @@
   --color-hint-text-caution-rgb: 245, 127, 23;
   --color-white: #fff;
   --color-neutral-800: #23254e;
+  --small-radius: 4px;
+  --color-neutral-400: #a1a3a8;
+  --large-radius: 16px;
+  --color-icon-white: #fff;
+  --color-hint-object-error: #d32f2f;
+  --color-neutral-300: #c0c2c5;
 }
 
 html {
