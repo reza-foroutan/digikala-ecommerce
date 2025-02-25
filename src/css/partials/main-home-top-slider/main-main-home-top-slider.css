@@ -1,8 +1,6 @@
 .main-home-top-slider {
   width: 100%;
   height: 400px;
-  background-color: crimson;
-
   .swiper {
     width: 100%;
     height: 100%;
@@ -27,6 +25,7 @@
           height: 100%;
           border-radius: 0px;
           object-fit: cover;
+          display: inline-block;
         }
       }
     }

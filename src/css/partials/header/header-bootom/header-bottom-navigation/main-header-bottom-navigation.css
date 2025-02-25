@@ -39,6 +39,7 @@
             width: 20px;
             height: 20px;
             fill: var(--color-icon-high-emphasis);
+            vertical-align: middle;
           }
         }
       }
@@ -98,6 +99,7 @@
                     width: 18px;
                     height: 18px;
                     fill: var(--color-icon-low-emphasis);
+                    vertical-align: middle;
                   }
                 }
               }

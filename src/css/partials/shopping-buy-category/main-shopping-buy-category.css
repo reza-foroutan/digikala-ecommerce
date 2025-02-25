@@ -1,0 +1,33 @@
+.main-shopping-buy-category {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 457px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  .main-shopping-buy-category-wrapper {
+    width: 93%;
+    height: 457px;
+    background-color: red;
+    .shopping-buy-category {
+      width: 100%;
+      height: 457px;
+      padding-top: 16px;
+      padding-bottom: 40px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+      background-color: yellow;
+      
+    }
+  }
+}

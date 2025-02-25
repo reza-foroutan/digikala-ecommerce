@@ -25,6 +25,7 @@
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       background: rgba(var(--color-hint-text-caution-rgb), 0.07);
+      cursor: pointer;
       .header-bottom-location-svg {
         svg {
           width: 20px;
