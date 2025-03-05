@@ -1,0 +1,49 @@
+.main-second-two-banners {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    .main-second-two-banners-wrapper {
+      width: 96%;
+      height: 300px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      .second-two-banners {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+        .second-two-banners-item-link {
+          display: block;
+          width: 48%;
+          height: 300px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          .second-two-banners-item-link-wrapper {
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 16px;
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+  }
+  
