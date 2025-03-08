@@ -1,0 +1,136 @@
+.main-readings {
+  width: 100%;
+  height: 445px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  .main-readings-wrapper {
+    width: 96%;
+    height: 445px;
+    .readings {
+      width: 100%;
+      height: 445px;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      .readings-heading {
+        width: 100%;
+        height: 68px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        .readings-heading-title {
+          width: 70%;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 2.1;
+          color: var(--color-neutral-900);
+        }
+        .readings-heading-all-more-post {
+          width: 30%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          .readings-heading-all-more-post-link {
+            width: 100%;
+            height: 100%;
+            display: block;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 2.17;
+            cursor: pointer;
+            color: var(--color-button-secondary);
+            .readings-heading-all-more-post-link-wrapper {
+              display: flex;
+              flex-flow: row wrap;
+              justify-content: center;
+              align-items: center;
+              .readings-heading-all-more-post-link-wrapper-svg {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                svg {
+                  width: 18px;
+                  height: 18px;
+                  fill: var(--color-icon-secondary);
+                  vertical-align: middle;
+                }
+              }
+            }
+          }
+        }
+      }
+      .readings-posts {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 15px;
+        .readings-posts-items {
+          width: 24%;
+          height: auto;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: flex-start;
+          align-items: center;
+          margin-bottom: 4px;
+          .readings-posts-items-wrapper {
+            width: 100%;
+            border: 1px solid var(--color-neutral-200);
+            background-color: var(--color-neutral-000);
+            border-radius: var(--global-radius);
+            overflow: hidden;
+            .readings-posts-items-link {
+              display: block;
+              border-radius: var(--global-radius);
+              overflow: hidden;
+              margin-bottom: 4px;
+              .readings-posts-items-link-wrapper {
+                .readings-posts-items-image {
+                  width: 100%;
+                  height: 201px;
+                  .readings-posts-items-image-img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: inline-block;
+                    aspect-ratio: 610 / 380;
+                  }
+                }
+                .readings-posts-items-title {
+                  font-size: 12px;
+                  width: 100%;
+                  font-weight: 400;
+                  line-height: 2.17;
+                  color: var(--color-neutral-900);
+                  text-align: right;
+                  padding-left: 16px;
+                  padding-right: 16px;
+                  box-sizing: border-box;
+                  -moz-box-sizing: border-box;
+                  -webkit-box-sizing: border-box;
+                  margin-top: 8px;
+                  margin-bottom: 12px;
+                  font-family: var(--font-family);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

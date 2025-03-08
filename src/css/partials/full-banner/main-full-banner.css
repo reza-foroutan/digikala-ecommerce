@@ -1,0 +1,41 @@
+.main-full-banner {
+  width: 100%;
+  height: 168px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  .main-full-banner-wrapper {
+    width: 96%;
+    height: 167px;
+    .full-banner {
+      width: 100%;
+      height: 168px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      .full-banner-link {
+        display: block;
+        width: 100%;
+        height: 168px;
+        .full-banner-link-wrapper {
+          border-radius: 16px;
+          line-height: 0;
+          width: 100%;
+          height: 100%;
+          aspect-ratio: 8 / 1;
+          picture {
+            .full-banner-link-wrapper-img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 16px;
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
