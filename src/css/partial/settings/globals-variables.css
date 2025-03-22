@@ -1,0 +1,15 @@
+:root {
+  --color-neutral-000: #fff;
+  --font-family: "IRANYekanXFaNum", sans-serif;
+  --window-inner-height: 403px;
+  --tw-shadow: 0 1px 0 rgba(0, 0, 0, 0.14), 0 2px 0 rgba(0, 0, 0, 0.05);
+  --tw-shadow-colored: 0 1px 0 var(--tw-shadow-color),
+    0 2px 0 var(--tw-shadow-color);
+  --color-neutral-100: #f0f0f1;
+  --small-radius: 4px;
+  --color-icon-high-emphasis: #424750;
+  --color-neutral-200: #e0e0e2;
+  --color-button-black: #0c0c0c;
+  --spacing-base: 4px;
+  --global-radius: 8px;
+}
