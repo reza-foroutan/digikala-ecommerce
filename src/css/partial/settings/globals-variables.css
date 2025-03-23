@@ -12,4 +12,11 @@
   --color-button-black: #0c0c0c;
   --spacing-base: 4px;
   --global-radius: 8px;
+  --color-neutral-700: #3f4064;
+  --color-neutral-600: #62666d;
+  --color-icon-low-emphasis: #a1a3a8;
+  --color-hint-text-caution-rgb: 245, 127, 23;
+  --color-hint-text-caution: #f57f17;
+  --color-white: #fff;
+  --color-neutral-800: #23254e;
 }
