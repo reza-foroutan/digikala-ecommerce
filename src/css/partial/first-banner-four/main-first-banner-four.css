@@ -1,0 +1,19 @@
+.first-banner-four {
+  width: 100%;
+  height: 241px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .first-banner-four-wrapper {
+    width: 86%;
+    height: inherit;
+    .first-banner-four-container {
+      width: 100%;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  }
+}
