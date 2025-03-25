@@ -1,0 +1,73 @@
+.fresh-amazing {
+  width: 100%;
+  height: 110px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .fresh-amazing-wrapper {
+    width: 86%;
+    height: 110px;
+    .fresh-amazing-wrapper-conatiner {
+      width: 100%;
+      height: 110px;
+      .fresh-amazing-link {
+        width: 100%;
+        min-height: 110px;
+        padding-left: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 16px;
+        padding-bottom: 12px;
+        background-color: var(--color-neutral-100);
+        border-radius: var(--large-radius);
+        overflow: hidden;
+        justify-content: space-between;
+        position: relative;
+        .fresh-amazing-attern {
+          background: url("../../../../public/images/fresh-amazing/freshPattern.svg")
+            left center no-repeat;
+          z-index: 1;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          position: absolute;
+        }
+        .fresh-amazing-gradient {
+          background: linear-gradient(
+            267.6deg,
+            rgba(var(--color-fresh-700-rgb), 0.1) 0,
+            rgba(var(--color-gradient-silver-rgb), 0) 100%
+          );
+          opacity: 0.3;
+          border-radius: var(--large-radius);
+          z-index: 1;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          position: absolute;
+        }
+        .fresh-amazing-banner {
+          width: 467.65px;
+          height: 62px;
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          flex-shrink: 0;
+          z-index: 1;
+        }
+        .fresh-amazing-products {
+          width: 636.14px;
+          height: 74px;
+        }
+      }
+    }
+  }
+}
