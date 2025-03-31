@@ -40,3 +40,13 @@ var swiper = new Swiper(".mySwiperAmazing", {
   },
 });
 // End Initialize Amazing Website
+// Initialize Shopping by category Website
+var swiper = new Swiper(".mySwiperShoppingCategory", {
+  slidesPerView: 7.5,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+// Initialize Shopping by category Website

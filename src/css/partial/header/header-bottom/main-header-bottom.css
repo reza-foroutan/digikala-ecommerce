@@ -13,6 +13,7 @@
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
   min-height: 36px;
+  position: relative;
   .main-header-bottom-nav-location {
     width: 100%;
     height: 40px;

@@ -62,10 +62,104 @@
           flex-direction: row;
           flex-shrink: 0;
           z-index: 1;
+          .fresh-amazing-banner-images {
+            width: 356px;
+            height: 62px;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            z-index: 1;
+            .fresh-amazing-banner-images-image-01 {
+              width: 66px;
+              height: 62px;
+              line-height: 0;
+              picture {
+                img {
+                  width: 66px;
+                  height: 62px;
+                  object-fit: cover;
+                  display: inline-block;
+                }
+              }
+            }
+            .fresh-amazing-banner-images-image-02 {
+              margin-left: 20px;
+              margin-right: 20px;
+              width: 250px;
+              height: 28px;
+              line-height: 0;
+              img {
+                width: 100%;
+                object-fit: cover;
+                object-fit: cover;
+                display: inline-block;
+              }
+            }
+          }
+          .fresh-amazing-discount {
+            border-radius: 9999px;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 2.17;
+            text-align: center;
+            padding-left: 12px;
+            padding-right: 12px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            background-color: var(--color-fresh-700);
+            justify-content: center;
+            align-items: center;
+            display: inline-flex;
+            height: 44.8px;
+            border: 1px solid transparent;
+            .fresh-amazing-discount-text {
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 2.15;
+              color: var(--color-white);
+              display: inline-block;
+            }
+          }
         }
         .fresh-amazing-products {
           width: 636.14px;
           height: 74px;
+          background-color: brown;
+          display: flex;
+          align-items: center;
+          margin-right: 16px;
+          z-index: 1;
+          .fresh-amazing-product-items {
+            width: 492px;
+            height: 74px;
+            max-height: 74px;
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            overflow: hidden;
+            align-items: center;
+          }
+          .fresh-amazing-product-items-more {
+            border-radius: 9999px;
+            width: 145px;
+            height: 50px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 2.17;
+            color: var(--color-fresh-700);
+            background-color: var(--color-neutral-000);
+            justify-content: center;
+            align-items: center;
+            display: flex;
+          }
         }
       }
     }

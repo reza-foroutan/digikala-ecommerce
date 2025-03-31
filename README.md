@@ -1,6 +1,6 @@
 # Digikala E-Commerce
 
-This project is a sample e-commerce website designed using **HTML5** and **CSS3**. It is part of the "Web Design I" course and developed with Adobe Dreamweaver.
+This project is a sample e-commerce website designed using **HTML5** and **CSS3**. It is part of the "Web Design I" course and developed with Visual Studio Code.
 
 ## Features
 
@@ -14,7 +14,7 @@ This project is a sample e-commerce website designed using **HTML5** and **CSS3*
    ```bash
    git clone <repository-url>
    ```
-2. Open the project in your preferred editor or Adobe Dreamweaver.
+2. Open the project in your preferred editor or Visual Studio Code.
 3. Launch the `index.html` file in your browser to view the website.
 
 ## Folder Structure
