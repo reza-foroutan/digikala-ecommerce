@@ -28,4 +28,11 @@
   --color-gradient-silver-rgb: 242, 242, 242;
   --color-fresh-700: #029a49;
   --color-neutral-900: #0c0c0c;
+  --color-icon-rating-0-2: #f9bc00;
+  --color-neutral-500: #81858b;
+  --color-icon-secondary: #19bfd3;
+  --color-button-secondary: #19bfd3;
+  --color-icon-warning: #f9a825;
+  --color-secondary-500: #19bfd3;
+  --color-icon-primary: #ef4056;
 }

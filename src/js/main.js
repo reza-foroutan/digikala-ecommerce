@@ -49,4 +49,24 @@ var swiper = new Swiper(".mySwiperShoppingCategory", {
     prevEl: ".swiper-button-prev",
   },
 });
-// Initialize Shopping by category Website
+// End Initialize Shopping by category Website
+// Initialize Most popular brands Website
+var swiper = new Swiper(".mySwiperMostPopularBrands", {
+  slidesPerView: 9.5,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+// End Initialize Most popular brands Website
+// Initialize Best-selling products Website
+var swiper = new Swiper(".mySwiperBestSellingProducts", {
+  slidesPerView: 4,
+  spaceBetween: 9.5,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+// End Initialize Best-selling products Website
