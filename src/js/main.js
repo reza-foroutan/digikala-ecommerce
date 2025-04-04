@@ -70,3 +70,13 @@ var swiper = new Swiper(".mySwiperBestSellingProducts", {
   },
 });
 // End Initialize Best-selling products Website
+// Initialize The hottest of the past few hours Website
+var swiper = new Swiper(".mySwiperHottestPastFewHours", {
+  slidesPerView: 4,
+  spaceBetween: 9.5,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+// End Initialize The hottest of the past few hours Website

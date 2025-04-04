@@ -89,13 +89,19 @@
                   width: 150px;
                   height: 150px;
                   line-height: 0;
-                  img {
-                    width: 150px;
-                    height: 150px;
-                    display: inline-block;
-                    object-fit: cover;
-                    border-radius: var(--global-radius);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  picture{
+                    img {
+                        width: 150px;
+                        height: 150px;
+                        display: inline-block;
+                        object-fit: cover;
+                        border-radius: var(--global-radius);
+                      }
                   }
+                  
                 }
                 .product-card-price-offer-discount {
                   width: 100%;

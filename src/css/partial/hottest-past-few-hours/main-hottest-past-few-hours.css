@@ -1,0 +1,164 @@
+.main-hottest-past-few-hours {
+  width: 100%;
+  height: 405px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .main-hottest-past-few-hours-wrapper {
+    width: 86%;
+    height: 405px;
+    .hottest-past-few-hours {
+      width: 100%;
+      height: 100%;
+      border: 1px solid var(--color-neutral-200);
+      border-radius: var(--large-radius);
+      padding-top: 16px;
+      padding-bottom: 16px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background-color: var(--color-neutral-000);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .hottest-past-few-hours-heading {
+        width: 100%;
+        height: 44px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        position: relative;
+        .hottest-past-few-hours-heading-text {
+          width: 280px;
+          height: 44px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .hottest-past-few-hours-heading-text-svg {
+            display: flex;
+            margin-left: 8px;
+            svg {
+              width: 24px;
+              height: 24px;
+              fill: var(--color-icon-warning);
+              vertical-align: middle;
+            }
+          }
+          .hottest-past-few-hours-heading-text-text {
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 2.1;
+            font-family: var(--font-family);
+            color: var(--color-neutral-900);
+          }
+        }
+      }
+      .hottest-past-few-hours-products {
+        width: 100%;
+        height: 298px;
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .swiper-slide-best-selling {
+            width: 100%;
+            height: 100%;
+            .swiper-slide-best-selling-link {
+              width: 100%;
+              height: 86px;
+              display: flex;
+              min-width: unset;
+              flex-flow: column nowrap;
+              margin-bottom: 10px;
+              margin-top: 10px;
+              justify-content: center;
+              align-items: center;
+              .swiper-slide-best-selling-link-box {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .best-selling-link-box-image {
+                  width: 86px;
+                  height: 86px;
+                  line-height: 0;
+                  border-radius: var(--global-radius);
+                  flex-shrink: 0;
+                  margin-left: 12px;
+                  display: flex;
+                  img {
+                    width: 86px;
+                    height: 86px;
+                    display: inline-block;
+                    object-fit: cover;
+                  }
+                }
+                .best-selling-link-box-number {
+                  font-weight: 800;
+                  line-height: 2.1;
+                  color: var(--color-secondary-500);
+                  font-size: 26px;
+                  display: flex;
+                  align-items: center;
+                  margin-left: 12px;
+                }
+                .best-selling-product-item-description {
+                  display: flex;
+                  align-items: center;
+                  flex-grow: 1;
+                  position: relative;
+                  justify-content: center;
+                  &::before {
+                    background-color: var(--color-neutral-100);
+                    bottom: -30px;
+                    content: "";
+                    display: block;
+                    height: 1px;
+                    left: 0;
+                    position: absolute;
+                    width: 100%;
+                  }
+                  .best-selling-product-item-description-text {
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 2.17;
+                    color: var(--color-neutral-700);
+                    position: relative;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
