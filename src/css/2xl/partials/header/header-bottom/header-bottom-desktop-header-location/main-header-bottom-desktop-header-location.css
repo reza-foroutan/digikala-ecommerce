@@ -1,0 +1,44 @@
+@import "./cities/main-cities.css";
+
+
+.main-header-bottom-desktop-header-location {
+  width: 20%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  .header-location {
+    width: 172px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 9999px;
+    gap: 8px;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    background: rgba(var(--color-hint-text-caution-rgb), 0.07);
+    position: relative;
+    .header-location-svg {
+      svg {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        font-weight: normal;
+        fill: var(--color-hint-text-caution);
+        vertical-align: middle;
+      }
+    }
+    .header-location-text {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 2.17;
+      color: var(--color-hint-text-caution);
+    }
+  }
+}

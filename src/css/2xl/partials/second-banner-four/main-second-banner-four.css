@@ -1,0 +1,42 @@
+.second-banner-four {
+  width: 100%;
+  height: 241px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .second-banner-four-wrapper {
+    width: 86%;
+    height: inherit;
+    .second-banner-four-container {
+      width: 100%;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10px;
+      .second-banner-four-box {
+        width: 25%;
+        height: inherit;
+        border-radius: 16px;
+        line-height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 100 / 75;
+        .second-banner-four-box-wrapper {
+          width: 100%;
+          height: 100%;
+          picture {
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 16px;
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

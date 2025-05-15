@@ -1,0 +1,44 @@
+.header-middle-notification-box {
+  width: 40px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .notification-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .notification-box-link {
+      width: 40px;
+      height: 40px;
+      padding: 8px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      flex-shrink: 0;
+      display: flex;
+      position: relative;
+      margin-left: 12px;
+      text-decoration: none;
+      .notification-box-link-box {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+          width: 24px;
+          height: 24px;
+          font-size: 24px;
+          font-weight: normal;
+          color: var(--color-icon-high-emphasis);
+        }
+      }
+    }
+  }
+}

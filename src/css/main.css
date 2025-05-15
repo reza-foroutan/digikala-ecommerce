@@ -1,0 +1,2 @@
+@import "./settings/main-settings.css";
+@import "./2xl/main-2xl.css" only screen and (min-width: 1400px);

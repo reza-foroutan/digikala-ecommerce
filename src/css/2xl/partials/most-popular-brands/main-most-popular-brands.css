@@ -1,0 +1,119 @@
+.most-popular-brands {
+  width: 100%;
+  height: 223.7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .most-popular-brands-center {
+    width: 86%;
+    height: inherit;
+    .most-popular-brands-wrapper {
+      width: 100%;
+      height: 100%;
+      border: 1px solid var(--color-neutral-200);
+      border-radius: var(--large-radius);
+      padding-top: 24px;
+      padding-bottom: 24px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background-color: var(--color-neutral-000);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-flow: column wrap;
+      .most-popular-brands-heading {
+        width: 100%;
+        height: 44.1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .most-popular-brands-heading-svg {
+          display: flex;
+          margin-left: 8px;
+          svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--color-icon-rating-0-2);
+            vertical-align: middle;
+          }
+        }
+        .most-popular-brands-heading-text {
+          font-size: 21px;
+          font-weight: 500;
+          line-height: 2.1;
+          color: var(--color-neutral-900);
+          font-family: var(--font-family);
+        }
+      }
+      .most-popular-brands-container {
+        width: 100%;
+        height: 118px;
+        margin-top: 12px;
+        .most-popular-brands-container-wrapper {
+          width: 100%;
+          height: 100%;
+          .swiper {
+            width: 100%;
+            height: 100%;
+          }
+
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .most-popular-brands-slide {
+              width: 142px;
+              height: 118px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              .most-popular-brands-slide-link {
+                display: flex;
+                width: 142px;
+                height: 118px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-left: 16px;
+                padding-right: 16px;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                .most-popular-brands-slide-link-box {
+                  width: 110px;
+                  height: 110px;
+                  line-height: 0;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img {
+                    width: 110px;
+                    height: 110px;
+                    display: inline-block;
+                    object-fit: cover;
+                  }
+                }
+              }
+            }
+          }
+
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

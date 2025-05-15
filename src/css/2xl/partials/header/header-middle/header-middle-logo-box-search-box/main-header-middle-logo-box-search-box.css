@@ -1,0 +1,11 @@
+@import "./header-middle-logo-box/main-header-middle-logo-box.css";
+@import "./header-middle-search-box/main-header-middle-search-box.css";
+
+.header-middle-logo-box-search-box {
+  width: 80%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex: 1 1 0%;
+}

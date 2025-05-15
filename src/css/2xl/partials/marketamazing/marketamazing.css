@@ -1,0 +1,140 @@
+.marketamazing {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  .marketamazing-center {
+    width: 86%;
+    height: inherit;
+    background-color: #e9edec;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: relative;
+    .center-link {
+      width: 100%;
+      height: inherit;
+      text-decoration: none;
+      display: flex;
+      flex-flow: row wrap;
+      position: relative;
+      background-image: url(../../images/amazing-images/marketamazing/freshPattern.svg);
+      object-fit: cover;
+      background-repeat: no-repeat;
+      .right {
+        width: 45%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 20px;
+        img:first-of-type {
+          width: 66px;
+          height: 62px;
+          margin-right: 30px;
+        }
+        img:last-of-type {
+          width: 250px;
+          height: 28px;
+        }
+        h5 {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          width: 110px;
+          height: 28px;
+          background-color: #029a49;
+          color: whitesmoke;
+          border-radius: 16px;
+          font-family: var(--fontfamily);
+          font-size: 14px;
+        }
+      }
+    }
+    .left {
+      width: 55%;
+      height: inherit;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 7px;
+      .left-link-1 {
+        display: block;
+        text-decoration: none;
+        width: 74px;
+        height: 74px;
+        .left-div-1 {
+          width: 74px;
+          height: 74px;
+          background-color: white;
+          border-radius: 50%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          &:first-of-type {
+            margin-right: 40px;
+          }
+          img {
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+          }
+          .left-span-1 {
+            display: inline-block;
+            width: 35px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 4px;
+            font-family: var(--fontfamily);
+            font-size: 12px;
+            background-color: #d32f2f;
+            border-radius: 10px;
+            color: whitesmoke;
+            position: absolute;
+            bottom: 0px;
+            right: -2px;
+          }
+        }
+      }
+      .left-link-7 {
+        display: block;
+        text-decoration: none;
+        color: green;
+        width: 142px;
+        height: 50px;
+        .left-div-7 {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: flex-start;
+          column-gap: 7px;
+          width: inherit;
+          height: inherit;
+          background-color: white;
+          border-radius: 9999px;
+          padding: 12px 20px;
+          margin-right: 40px;
+          font-family: var(--fontfamily);
+          font-size: 12px;
+          .img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+}

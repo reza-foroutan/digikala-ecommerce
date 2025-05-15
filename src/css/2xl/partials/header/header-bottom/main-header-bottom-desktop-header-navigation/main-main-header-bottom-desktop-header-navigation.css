@@ -1,0 +1,17 @@
+@import "./header-navigation-categories/main-header-navigation-categories.css";
+@import "./header-navigation-shop/main-header-navigation-shop.css";
+@import "./header-navigation-site/main-header-navigation-site.css";
+
+.main-header-bottom-desktop-header-navigation {
+  width: 85%;
+  height: 40px;
+  display: flex;
+  position: relative;
+  .header-navigation {
+    /* width: 956px; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: relative;
+  }
+}
